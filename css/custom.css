@@ -1,0 +1,120 @@
+:root {
+    --color-theme: #20c1eb;
+    --bs-body-font-size: .85rem !important;
+    --bs-body-font-family: Arial, Helvetica, sans-serif !important;
+}
+:root[data-bs-theme=light] {
+    --bs-link-color: #333333 !important;
+    --bs-link-hover-color: var(--color-theme) !important;
+}
+:root[data-bs-theme=light] body {
+    color: var(--bs-dark);
+    background-color: var(--bs-secondary);
+    font-size: 0.9rem !important;
+    line-height: 1.25rem !important;
+}
+:root[data-bs-theme=light] .navbar-dark { --bs-navbar-color: rgb(255 255 255); }
+body {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+small { font-size: .7rem !important; }
+
+.container { max-width: 850px !important; }
+
+.color-theme { color: var(--velocitytoko-color-main) !important; }
+
+.bg-theme { background-color: var(--velocitytoko-color-main) !important;}
+
+.btn-primary {
+    border-color: var(--velocitytoko-color-main) !important;
+    background-color: var(--velocitytoko-color-main) !important;
+}
+.border-theme { border-color: var(--velocitytoko-color-main) !important; }
+.wrapper {padding: 0 !important;}
+.bg-gray { background-color: #F0F0F0 !important;}
+.header-top .kontak-seller a {
+    color: var(--velocitytoko-color-main);
+    padding: 1px 2px;
+}
+.header-top .profile-icons a {
+    color: var(--velocitytoko-color-main);
+}
+.header-top .kontak-seller svg {
+    width: 12px;
+    height: 12px;
+}
+.title-single-part {
+    color: #fff;
+    padding: 5px 10px;
+    background-color: var(--velocitytoko-color-main);
+}
+.textwidget {
+    padding: .5rem;
+}
+.widget-area aside.widget {
+    /* padding: .8rem; */
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+}
+.widget-area aside.widget .widget-title {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--bs-light);
+    background-color: var(--velocitytoko-color-main);
+    padding: 0.5rem 0.75rem;
+    /* margin: -1rem -1rem 1rem; */
+}
+.footer-sidebar .widget-title {
+    font-size: 1rem;
+    font-weight: 600;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+}
+.pagi-home .page-numbers{
+    color: var(--velocitytoko-color-main);
+    background-color: var(--bs-light);
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 2px;
+}
+.widget .offcanvas-body {
+    padding: 15px !important;
+}
+#main-nav {
+    border-top: 1px solid #f0eeee;
+    border-bottom: 1px solid #f0eeee;
+    box-shadow: 0px 3px 3px 0px #f7f7f7;
+}
+.vtoko-sosmed .h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.vtoko-sosmed svg {
+    width: 20px;
+    height: 20px;
+}
+@media (min-width:768px) {
+    .widget-area.right-sidebar {
+        max-width: 26%;
+    }
+    .dropdown-menu {background-color: var(--bs-dark) !important;}
+    .dropdown-menu > li>a, .dropdown-menu > li>a:hover {
+        color: #fff;
+        font-size: 0.75rem;
+        background-color: transparent;
+    }
+    #main-menu > li > a {
+        padding: 0.5rem .75rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.75rem;
+        color: var(--bs-dark);
+    }
+    #main-menu > li.current_page_item > a,
+    #main-menu > li.current-menu-item > a,
+    #main-menu > li > a:hover {
+        color: var(--velocitytoko-color-main);
+    }
+}
